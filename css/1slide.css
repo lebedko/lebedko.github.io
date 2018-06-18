@@ -130,6 +130,7 @@
 
 /*letters style*/
 
+
 .letter .t {
     z-index: 3;
     position: relative;
@@ -139,6 +140,27 @@
     transition: 1s all;
 
 }
+@media (max-width: 1200px) {
+    .letter .t {
+        left: vh;
+        top: 53vh;
+        width: 8vh;
+    }
+}
+@media (max-width: 1100px) {
+    .letter .t {
+        left: 7vh;
+        top: 53vh;
+        width: 8vh;
+    }
+}
+@media (max-width: 1024px) {
+    .letter .t {
+        left: 7vh;
+        top: 53vh;
+        width: 8vh;
+    }
+}
 @media (max-width: 768px) {
     .letter .t {
         left: 4vh;
@@ -146,13 +168,21 @@
         width: 8vh;
     }
 }
-@media (max-width: 375px) {
+@media (max-width: 414px) {
     .letter .t {
-        left: 2vh;
+        left: 6vh;
         top: 40vh;
         width: 8vh;
     }
 }
+@media (max-width: 375px) {
+    .letter .t {
+        left: 6vh;
+        top: 40vh;
+        width: 8vh;
+    }
+}
+
 
 
 
@@ -163,6 +193,30 @@
     top: 45vh;
     transition: 1s all;
 }
+@media (max-width: 1200px) {
+    .letter .i {
+        left: vh;
+        top: 39vh;
+        width: 25vh;
+
+    }
+}
+@media (max-width: 1100px) {
+    .letter .i {
+        left: 5vh;
+        top: 39vh;
+        width: 25vh;
+
+    }
+}
+@media (max-width: 1024px) {
+    .letter .i {
+        left: 5vh;
+        top: 39vh;
+        width: 25vh;
+
+    }
+}
 @media (max-width: 768px) {
     .letter .i {
         left: -5vh;
@@ -171,9 +225,17 @@
 
     }
 }
+@media (max-width: 414px) {
+    .letter .i {
+        left: -5vh;
+        top: 29vh;
+        width: 8em;
+
+    }
+}
 @media (max-width: 376px) {
     .letter .i {
-        left: -9vh;
+        left: -5vh;
         top: 29vh;
         width: 8em;
 
@@ -188,6 +250,27 @@
     transform: 1s all;
     
 }
+@media (max-width: 1200px) {
+    .letter .n {
+    left: 15em;
+    top: 5em;
+        width: 13vh;
+    }
+}
+@media (max-width: 1100px) {
+    .letter .n {
+    left: 10em;
+    top: 15.5em;
+        width: 13vh;
+    }
+}
+@media (max-width: 1024px) {
+    .letter .n {
+    left: 10em;
+    top: 15.5em;
+        width: 13vh;
+    }
+}
 @media (max-width: 768px) {
     .letter .n {
     left: 1.5em;
@@ -195,9 +278,16 @@
         width: 10vh;
     }
 }
+@media (max-width: 414px) {
+    .letter .n {
+    left: 2em;
+    top: 8.5em;
+        width: 4.5em;
+    }
+}
 @media (max-width: 376px) {
     .letter .n {
-    left: 1.5em;
+    left: 2em;
     top: 8.5em;
         width: 4.5em;
     }
@@ -211,11 +301,39 @@
     top: 13em;
      transition: 1s all;
 }
+@media (max-width: 1200px) {
+    .letter .mzn {
+    left: 29em;
+    top:32vh;
+        width: 3em;
+    }
+}
+@media (max-width: 1100px) {
+    .letter .mzn {
+    left: 23.5em;
+    top:32vh;
+        width: 3em;
+    }
+}
+@media (max-width: 1024px) {
+    .letter .mzn {
+    left: 23.5em;
+    top:32vh;
+        width: 3em;
+    }
+}
 @media (max-width: 768px) {
     .letter .mzn {
     left: 13.5em;
     top:32vh;
         width: 3em;
+    }
+}
+@media (max-width: 414px) {
+    .letter .mzn {
+    left: 8em;
+    top:28vh;
+        width: 1.2em;
     }
 }
 @media (max-width: 376px) {
@@ -233,13 +351,36 @@
     top: 14.5em;
      transition: 1s all;
 }
+@media (max-width: 1200px) {
+    .letter .o_white {
+    left: 70vh;
+    top: 33vh;
+        width: 3em;
+    }}
+@media (max-width: 1100px) {
+    .letter .o_white {
+    left: 35vh;
+    top: 33vh;
+        width: 3em;
+    }}
+@media (max-width: 1024px) {
+    .letter .o_white {
+    left: 35vh;
+    top: 33vh;
+        width: 3em;
+    }}
 @media (max-width: 768px) {
     .letter .o_white {
     left: 25vh;
     top: 33vh;
         width: 3em;
     }}
-
+@media (max-width: 414px) {
+    .letter .o_white {
+    left: 19vh;
+    top: 28vh;
+        width: 2.5em;
+    }}
 @media (max-width: 376px) {
     .letter .o_white {
     left: 19vh;
@@ -254,11 +395,35 @@
     top: 7em;
     transition: 1s all;
 }
+@media (max-width: 1200px) {
+    .letter .l_white {
+    left: 40em;
+    top: 12em;
+        width: 4em;
+    }}
+@media (max-width: 1100px) {
+    .letter .l_white {
+    left: 35em;
+    top: 16em;
+        width: 4em;
+    }}
+@media (max-width: 1024px) {
+    .letter .l_white {
+    left: 35em;
+    top: 16em;
+        width: 4em;
+    }}
 @media (max-width: 768px) {
     .letter .l_white {
     left: 25em;
     top: 16em;
         width: 4em;
+    }}
+@media (max-width: 414px) {
+    .letter .l_white {
+    left: 15em;
+    top: 8em;
+        width: 2em;
     }}
 @media (max-width: 376px) {
     .letter .l_white {
@@ -274,11 +439,35 @@
     top: 16em;
     transition: 1s all;
 }
+@media (max-width: 1200px) {
+    .letter .T_white {
+    left: 40em;
+    top: 20em;
+        width: 6em;
+    }}
+@media (max-width: 1100px) {
+    .letter .T_white {
+    left: 37em;
+    top: 27em;
+        width: 4em;
+    }}
+@media (max-width: 1024px) {
+    .letter .T_white {
+    left: 37em;
+    top: 27em;
+        width: 4em;
+    }}
 @media (max-width: 768px) {
     .letter .T_white {
     left: 27em;
     top: 27em;
         width: 4em;
+    }}
+@media (max-width: 414px) {
+    .letter .T_white {
+    left: 15em;
+    top: 17em;
+        width: 2em;
     }}
 @media (max-width: 376px) {
     .letter .T_white {
@@ -294,11 +483,36 @@
     top: 6em;
     transition: 1s all;
 }
+@media (max-width:1200px) {
+    .letter .I_white {
+    left: 53em;
+    top: 12em;
+        width: 13em;
+    }}
+@media (max-width:1100px) {
+    .letter .I_white {
+    left: 43em;
+    top: 12em;
+        width: 13em;
+    }}
+
+@media (max-width:1024px) {
+    .letter .I_white {
+    left: 39em;
+    top: 15em;
+        width: 13em;
+    }}
 @media (max-width:768px) {
     .letter .I_white {
     left: 29em;
     top: 15em;
         width: 13em;
+    }}
+@media (max-width: 414px) {
+    .letter .I_white {
+    left: 16em;
+    top: 9em;
+        width: 7em;
     }}
 @media (max-width: 376px) {
     .letter .I_white {
@@ -314,11 +528,35 @@
     top: 1em;
     transition: 1s all;
 }
+@media (max-width: 1200px) {
+    .letter .v_white {
+    left: 57em;
+    top: 6em;
+        width: 6em;
+    }}
+@media (max-width: 1100px) {
+    .letter .v_white {
+    left: 47em;
+    top: 6em;
+        width: 6em;
+    }}
+@media (max-width: 1024px) {
+    .letter .v_white {
+    left: 47em;
+    top: 6em;
+        width: 6em;
+    }}
 @media (max-width: 768px) {
     .letter .v_white {
     left: 37em;
     top: 6em;
         width: 6em;
+    }}
+@media (max-width: 414px) {
+    .letter .v_white {
+    left: 18em;
+    top: 4em;
+        width: 4em;
     }}
 @media (max-width: 376px) {
     .letter .v_white {
@@ -334,11 +572,35 @@
     top: 1em;
     transition: 1s all;
 }
+@media (max-width: 1200px) {
+    .letter .c_white {
+    left: 60em;
+    top: 5em;
+        width: 5em;
+    }}
+@media (max-width: 1100px) {
+    .letter .c_white {
+    left: 50em;
+    top: 5em;
+        width: 5em;
+    }}
+@media (max-width: 1024px) {
+    .letter .c_white {
+    left: 50em;
+    top: 5em;
+        width: 5em;
+    }}
 @media (max-width: 768px) {
     .letter .c_white {
     left: 40em;
     top: 5em;
         width: 5em;
+    }}
+@media (max-width: 414px) {
+    .letter .c_white {
+    left: 17em;
+    top: 3em;
+        width: 3em;
     }}
 @media (max-width: 376px) {
     .letter .c_white {
@@ -355,11 +617,45 @@
     left: 73em;
     
 }
+@media (max-width: 1280px){
+    .avtor{
+        top:82vh;
+        left:80%;
+        font-size: 3vh;
+   
+    }}
+@media (max-width: 1200px){
+    .avtor{
+        top:80vh;
+        left:80%;
+        font-size: 3vh;
+   
+    }}
+@media (max-width: 1100px){
+    .avtor{
+        top:90vh;
+        left:95vh;
+        font-size: 3vh;
+   
+    }}
+@media (max-width: 1024px){
+    .avtor{
+        top:80vh;
+        left:80%;
+        font-size: 3vh;
+   
+    }}
 @media (max-width: 768px){
     .avtor{
         top:77vh;
         left:26vh;
         font-size: 3vh;
+   
+    }}
+@media (max-width: 414px){
+    .avtor{
+        top:75vh;
+        left:20vh;
    
     }}
 @media (max-width: 376px){
@@ -386,13 +682,42 @@
     
     z-index: 4;
 }
+@media (max-width: 1280px){
+    .text h1#proekt{
+        top:70vh;
+        left:50%;
+   
+    }}
+@media (max-width: 1200px){
+    .text h1#proekt{
+        top:74vh;
+        left:76%;
+   
+    }}
+@media (max-width: 1100px){
+    .text h1#proekt{
+        top:74vh;
+        left:3vh;
+   
+    }}
+@media (max-width: 1024px){
+    .text h1#proekt{
+        top:72vh;
+        left:67%;
+   
+    }}
 @media (max-width: 768px){
     .text h1#proekt{
         top:50vh;
         left:15vh;
    
     }}
-
+@media (max-width: 414px){
+    .text h1#proekt{
+        top:56vh;
+        left:6vh;
+   
+    }}
 @media (max-width: 376px){
     .text h1#proekt{
         top:56vh;

@@ -61,6 +61,12 @@
     
     
 }
+@media (max-width: 414px) {
+    .section4 h1 {
+  font-size: 12vh;
+        top:20vh;
+    }}
+
 @media (max-width: 376px) {
     .section4 h1 {
   font-size: 12vh;
@@ -96,6 +102,12 @@ font-family: 'Montserrat:400i&amp', sans-serif;
     align-content: center;
     z-index: 2;
 }
+@media (max-width: 414px) {
+    .section4 p {
+  font-size: vh;
+        top: 55vh;
+        
+    }}
 @media (max-width: 376px) {
     .section4 p {
   font-size: vh;
@@ -124,6 +136,13 @@ font-family: 'Montserrat:400i&amp', sans-serif;
     transition: 1s all;
     
 }
+@media (max-width: 414px) {
+    .letter .p4 {
+  width: 8vh;
+        top:10vh;
+        
+    }}
+
 @media (max-width: 376px) {
     .letter .p4 {
   width: 8vh;
@@ -142,6 +161,13 @@ font-family: 'Montserrat:400i&amp', sans-serif;
   width: 8vh;
         top:32vh;
         left: -20vh;
+        
+    }}
+@media (max-width:414px) {
+    .letter .r4 {
+  width: 8vh;
+        top:2vh;
+        left: -12vh;
         
     }}
 @media (max-width: 376px) {
@@ -165,6 +191,12 @@ font-family: 'Montserrat:400i&amp', sans-serif;
         top:38vh;
         left: -1vh;
     }}
+@media (max-width: 414px) {
+    .letter .a4 {
+  width: 10vh;
+        top:38vh;
+        left: -7vh;
+    }}
 @media (max-width: 376px) {
     .letter .a4 {
   width: 10vh;
@@ -178,6 +210,12 @@ font-family: 'Montserrat:400i&amp', sans-serif;
     left: -2vh;
     transition: 1s all;
 }
+@media (max-width: 414px) {
+    .letter .d4 {
+ width: 8vh;
+        top:62vh;
+        left: -1vh;
+    }}
 @media (max-width: 376px) {
     .letter .d4 {
  width: 8vh;
@@ -198,6 +236,12 @@ font-family: 'Montserrat:400i&amp', sans-serif;
         top:27vh;
         left: 2vh;
     }}
+@media (max-width: 414px) {
+    .letter .o4 {
+     width: 8vh;
+        top:7vh;
+        left: 27vh;
+    }}
 @media (max-width: 376px) {
     .letter .o4 {
      width: 8vh;
@@ -210,6 +254,13 @@ font-family: 'Montserrat:400i&amp', sans-serif;
     left:-vh;
     transition: 1s all;
 }
+@media (max-width: 414px) {
+    .letter .k4 {
+  width: 4vh;
+        top:1vh;
+        left: 24vh;
+        
+    }}
 @media (max-width: 376px) {
     .letter .k4 {
   width: 4vh;
@@ -230,6 +281,12 @@ font-family: 'Montserrat:400i&amp', sans-serif;
         left: 2vh;
         width: 7vh;
     }}
+@media (max-width: 414px) {
+    .letter .c4 {
+        top:56vh;
+        left: 2vh;
+        width: 10vh;
+    }}
 @media (max-width: 376px) {
     .letter .c4 {
         top:26vh;
@@ -243,6 +300,13 @@ font-family: 'Montserrat:400i&amp', sans-serif;
     left: 26vh;
     transition: 1s all;   
 }
+@media (max-width: 414px) {
+    .letter .a24 {
+     top:6vh;
+     left: -1vh;
+        width: 11vh;
+    }}
+
 @media (max-width: 376px) {
     .letter .a24 {
      top:6vh;

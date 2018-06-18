@@ -46,6 +46,12 @@
     
     
 }
+@media (max-width: 414px) {
+   .section h1 {
+  font-size: 6vh;
+        top:30vh;
+    }}
+
 @media (max-width: 376px) {
    .section h1 {
   font-size: 6vh;
@@ -84,6 +90,11 @@ font-family: 'Montserrat:400i&amp', sans-serif;
    
     
 }
+@media (min-width: 414px) {
+    .section p {
+  font-size: vh;
+        top: 62vh;
+    }}
 @media (min-width: 376px) {
     .section p {
   font-size: vh;
@@ -109,6 +120,13 @@ font-family: 'Montserrat:400i&amp', sans-serif;
     left: -4vh;
     transition: 1s all;
 }
+
+@media (max-width: 414px) {
+    .letter .u2 {
+   width: 9vh;
+        top:6vh;
+        left: -10vh;
+    }}
 @media (max-width: 376px) {
     .letter .u2 {
    width: 9vh;
@@ -122,6 +140,14 @@ font-family: 'Montserrat:400i&amp', sans-serif;
     top: 28vh;
     left: 4vh;
     transition: 1s all;}
+
+@media (max-width: 414px) {
+    .letter .ch2 {
+  width: 10vh;
+        top:14vh;
+        left: -1vh;
+        
+    }}
 
 @media (max-width: 376px) {
     .letter .ch2 {
@@ -139,6 +165,12 @@ font-family: 'Montserrat:400i&amp', sans-serif;
     left: -30vh;
     transition: 1s all;
 }
+@media (max-width: 414px) {
+    .letter .s2 {
+  width:  10vh;
+        top:42vh;
+        left: -21vh;
+    }}
 @media (max-width: 376px) {
     .letter .s2 {
   width:  10vh;
@@ -151,6 +183,13 @@ font-family: 'Montserrat:400i&amp', sans-serif;
     left:-20vh;
     transition: 1s all;
 }
+@media (max-width: 414px) {
+    .letter .t2 {
+  width: vh;
+        top:1vh;
+        left: -5vh;
+        
+    }}
 @media (max-width: 376px) {
     .letter .t2 {
   width: vh;
@@ -166,6 +205,12 @@ font-family: 'Montserrat:400i&amp', sans-serif;
     
     transition: 1s all;   
 }
+@media (max-width: 414px) {
+    .letter .o2 {
+     width: 6vh;
+        top:4vh;
+        left: 26vh;
+    }}
 @media (max-width: 376px) {
     .letter .o2 {
      width: 6vh;
@@ -178,6 +223,12 @@ font-family: 'Montserrat:400i&amp', sans-serif;
     left: -2vh;
     transition: 1s all;   
 }
+@media (max-width: 414px) {
+    .letter .t22 {
+  width: 5vh;
+        top:0vh;
+        left: 18vh;
+    }}
 @media (max-width: 376px) {
     .letter .t22 {
   width: 5vh;
@@ -192,6 +243,13 @@ font-family: 'Montserrat:400i&amp', sans-serif;
     left: 1vh;
     transition: 1s all;
 }
+@media (max-width: 414px) {
+    .letter .a2 {
+        top:54vh;
+        left: 10vh;
+        width: 11vh;
+        
+    }}
 @media (max-width: 376px) {
     .letter .a2 {
         top:54vh;
